@@ -18,6 +18,10 @@ const Intro = () => {
     window.open(pdf);
   }
 
+  const gitLink = () => {
+    window.open('https://github.com/lexiekateb/resume', '_blank');
+  }
+
   const StyledButton = styled(Button)({
       background: '#e7cac2',
       border: 0,
@@ -67,8 +71,9 @@ const Intro = () => {
 
       </Box>
         <div className={styles.buttons}>
-            <StyledButton onClick={() => showpDF('research.pdf')}>View Research Statement</StyledButton>
-            <StyledButton onClick={() => showpDF('personal.pdf')}>View Personal Statement</StyledButton>
+            <StyledButton onClick={() => showpDF('research.pdf')}>view research statement</StyledButton>
+            <StyledButton onClick={() => showpDF('personal.pdf')}>view personal statement</StyledButton>
+            <StyledButton onClick={() => gitLink()}>this website's repo</StyledButton>
         </div>
       <CircleButt className={styles.downButton} onClick={() => onButtonClick()}><ArrowDropDown/></CircleButt>
     </Box>
