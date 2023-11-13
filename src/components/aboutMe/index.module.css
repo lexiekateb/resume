@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Inconsolata:wght@500&family=Space+Mono&display=swap');
+
+.title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'DM Mono', cursive;
+    font-size: 50px;
+}
+
+.bigContainer {
+    width: 100%;
+}
+
+.container {
+    display:flex;
+    width: 100%;
+    align-items: top;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.text {
+    background-color: #FFFCF4;
+    border: 1px solid #B1C9EB;
+    padding: 10px;
+}
+
+.content {
+    font-size: 25px;
+    display: flex;
+    font-family: 'DM Mono', monospace;
+    align-items: center;
+    color: black;
+    background-color: #bacabe;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+    height: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, #B1C9EB 1px, transparent 1px),
+    linear-gradient(to bottom, #B1C9EB 1px, transparent 1px);
+    text-align: left;
+    border: 3px solid #bacabe;
+    border-radius: 10px;
+    box-shadow: 2px 3px #bacabe;
+    padding: 30px;
+}
+
+.skills {
+    background-size: 40px 40px;
+    background-image:
+    linear-gradient(to right, #B1C9EB 1px, transparent 1px),
+    linear-gradient(to bottom, #B1C9EB 1px, transparent 1px);
+    border-radius: 10px;
+    border: 3px solid #bacabe;
+    box-shadow: 2px 3px #c2c1c1;
+    padding: 10px;
+}
+
+.skill {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
