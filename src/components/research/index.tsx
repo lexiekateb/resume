@@ -14,10 +14,11 @@ const ResearchSection: React.FC<ResearchSectionProps> = ({ researchItems }) => {
             <div className={styles.container}>
                 {researchItems.map((item, index) => (
                     <Box className={styles.researchCard} key={index}>
-                        <Box className={styles.header}>{item.title}</Box>
+                        <Box className={styles.header}>{item.title} </Box>
                             <Box className={styles.desc}>
                                 <i>{item.startDate} - {item.endDate}</i>
-                                <p >{item.description}</p>
+                                <br />
+                                <Box>{item.description}</Box>
                             </Box>
                     </Box>
                 ))}

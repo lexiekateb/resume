@@ -82,3 +82,69 @@ p {
     line-height: 1.5;
     color: #323232;
 }
+
+@media only screen and (max-width: 768px) {
+    .realContainer {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        padding-top: 50px; 
+    }
+
+    .wordContainer {
+        gap: 20px; 
+        box-shadow: 0px 0px #e7cac2; 
+        width: 90%;
+    }
+
+    .imageContainer {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        padding-top: 20px;
+    }
+
+
+    .profPic {
+        max-width: 30vh; 
+        border-radius: 50px 0px 0px 0px; 
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        padding: 10px; 
+        align-items: center;
+    }
+
+    .downButton {
+        visibility: hidden;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 14px;
+        line-height: 1.3; 
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+}

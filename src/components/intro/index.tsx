@@ -58,10 +58,9 @@ const Intro = () => {
         <Box className={styles.wordContainer}>
           <div className={styles.title}>Hi, I'm Lexie.</div>
             <div className={styles.intro}>
-              <p>I am a senior at the University of Oklahoma studying Computer Science and minoring in math. I am passionate about researching
-              algorithmic bias and the ethics of artificial intelligence. I am also interested in the intersection of technology and society.</p>
-              <p>In my free time time, you can catch me in a boxing studio getting a session in, reading a good historical fiction book in a coffee shop,
-              or hanging out with my rescue dog Venti.</p>
+              <p>I am currently a PhD Student at New York University.</p>
+              <p>Please use this website to get to know my research and experience.</p>
+              <p>Feel free to reach out to me using my linked contact information!</p>
             </div>
         </Box>
 

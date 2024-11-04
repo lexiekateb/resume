@@ -13,18 +13,17 @@ const ResumeSection: React.FC<ResumeSectionProps> = ({ resumeItems }) => {
     
 
     return (
-        <div className={styles.resume} id="resume">
-
+        <div className={styles.research} id="resume">
             <Box className={styles.title}>Work Experiences</Box>
             <Box className={styles.container}>
                 {resumeItems.map((item, index) => (
                     <Box className={styles.researchCard} key={index}>
                         <Box className={styles.header}>{item.title}</Box>
-
                         <Box className={styles.desc}>
                             <Box><i>{item.startDate} - {item.endDate}</i></Box>
                             <Box><i>{item.location} -  {item.company}</i></Box>
-                            <p>{item.description}</p>
+                            <br />
+                            <Box>{item.description}</Box>
                         </Box>
                     </Box>
                 ))}

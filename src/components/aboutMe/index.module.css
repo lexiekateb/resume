@@ -8,15 +8,16 @@
 }
 
 .bigContainer {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     display:flex;
-    width: 100%;
-    align-items: top;
-    justify-content: center;
-    gap: 10vw;
+    width: 90%;
+    gap: 5vw;
 }
 
 .text {
@@ -51,6 +52,7 @@
     border-radius: 10px;
     box-shadow: 2px 3px #bacabe;
     padding: 30px;
+    width: 50%;
 }
 
 .skills {
@@ -68,4 +70,15 @@
     display:flex;
     align-items:center;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
 }

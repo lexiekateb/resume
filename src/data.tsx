@@ -19,73 +19,81 @@ export type SkillItem = {
     rating: number
 }
 
-export const resumeItems:ResumeItem[] = [
+export const resumeItems: ResumeItem[] = [
+    {
+        title: "PhD Student",
+        company: "Tandon School of Engineering, New York University",
+        location: "Brooklyn, NY",
+        startDate: "Aug 2024",
+        endDate: "Current",
+        description: "Pursuing a PhD in Computer Science with the Cybersecurity for Democracy lab, focusing on ad transparency and child safety on social media."
+    },
     {
         title: "Software Engineering Intern",
         company: 'Heartland Payment Systems',
         location: 'OKC, OK',
-        startDate: 'May 2022',
-        endDate: 'Current',
-        description: "I head a project that would allow Heartland executives to view and edit various website pages throughout Heartland's many services, allowing them to make changes without having to go through the development team, saving both groups time. I used React to create the frontend of the project and integreated in with exsiting Snowflake databases and API's to allow these changes to be made."
+        startDate: 'May 2023',
+        endDate: 'May 2024',
+        description: "Led a project enabling executives to edit web pages via React, integrating with Snowflake databases and APIs to streamline updates."
     },
     {
         title: "Data Analytics Intern",
         company: 'Chickasaw Nation Industries',
         location: 'Norman, OK',
         startDate: 'Aug 2022',
-        endDate: 'May 2022',
-        description: "I assisted in Data Analytics and Software Engineering work, including but not limited to proficiency in PowerBI, Microsoft SQL Server Management, and Powershell. My main duties were to create detailed reports using PowerBI technology."
+        endDate: 'May 2023',
+        description: "Handled data analytics tasks, creating reports using PowerBI and managing Microsoft SQL Server and Powershell."
     },
     {
         title: "Premier Software Engineering Intern",
         company: 'Tinker Air Force Base',
         location: 'Midwest City, OK',
-        startDate: 'May 2021',
-        endDate: 'Aug 2021',
-        description: "Wrote tests for existing production code to ensure the dependability of current systems. Participated in the Agile framework to complete many web development projects using JavaScript, HTML/CSS, and APIs."
-    },
-    {
-        title: "Resident Advisor (RA)",
-        company: 'University of Oklahoma',
-        location: 'Norman, OK',
-        startDate: 'Aug 2021',
-        endDate: 'Oct 2022',
-        description: "I was a residential advisor for over 70 students, acting as the first source of information for campus life and resources. My responsibilities included weekly social events, shifts where I was the primary contact for resident emergencies, and meeting regularly with my residents to form meaningful connections."
+        startDate: 'May 2022',
+        endDate: 'Aug 2022',
+        description: "Developed tests for production code and completed web projects using JavaScript, HTML/CSS, and APIs within an Agile framework."
     }
 ];
 
+
 export const researchItems: ResearchItem[] = [
     {
-      title: "Sparse Model Graphing",
-      startDate: 'Aug 2023',
-      endDate: 'Current',
-      description: "I joined a PhD student as a paid undergraduate researcher where I am designing an interactable front-end for his program produces variable graphs from an extensible Graph Neural Network-based classifier (98% accuracy) for sparse matrix structure detection.",
+        title: "TikTok Polarization",
+        startDate: 'Aug 2024',
+        endDate: 'Current',
+        description: "I am part of a research group analyzing trends in content volume and polarization on TikTok, focusing on how the platform amplifies divisive topics and their broader impact on user engagement."
     },
     {
-      title: "Reinforcement Learning",
-      startDate: 'Aug 2022',
-      endDate: 'Aug 2023',
-      description: "During junior year, I collaborated with a team of students interested in pursing research in machine learning, specifically reinforcement learning. We used PyTorch, q-tables, and the Bellman equation to train a model to play tic-tac-toe against itself, resutling in a highly efficient tic-tac-toe player (I did lose to it a few times).",
+        title: "Sparse Model Graphing",
+        startDate: 'Aug 2023',
+        endDate: 'May 2024',
+        description: "Collaborated as an undergraduate researcher with a PhD student to develop an interactive front-end for a program that visualizes variable graphs produced by a high-accuracy (98%) Graph Neural Network-based classifier for sparse matrix detection."
     },
     {
-      title: "Autonomous Driving",
-      startDate: 'Aug 2021',
-      endDate: 'May 2022',
-      description: "For my entire sophomore year, I worked with the Mechanical Engineering department to implement object detection on the camera of a vehicle. I used OpenCV and Houge line detection to recognize objects on the frame, and then integrated with their existing Lidar technology to turn the wheels to avoid hitting the object, or stopping the car if avoidance was impossible.",
+        title: "Reinforcement Learning",
+        startDate: 'Aug 2022',
+        endDate: 'Aug 2023',
+        description: "Worked with a team to explore reinforcement learning using PyTorch, q-tables, and the Bellman equation. Trained a model to play tic-tac-toe against itself, resulting in an efficient player that consistently performed at a high level."
     },
     {
-      title: "NASA L'SPACE Program",
-      startDate: 'Sep 2020',
-      endDate: 'Jan 2021',
-      description: "I joined the NASA L'SPACE program my freshman year in Aug. 2020. I worked alongisde a NASA export and other students to create a proposal for a deionizing airlock that would mitigate the amount of moon dust entering the astronaut chambers.",
+        title: "Autonomous Driving",
+        startDate: 'Aug 2021',
+        endDate: 'May 2022',
+        description: "Partnered with the Mechanical Engineering department to enhance object detection for autonomous vehicles using OpenCV and Hough line detection, integrating the output with Lidar technology for collision avoidance."
     },
     {
-      title: "OU Data Analytics Lab",
-      startDate: 'Jan 2021',
-      endDate: 'May 2021',
-      description: "In my second semester of freshman year, I worked with a PhD student in his research of detecting Simpson's paradox within a given dataset. As Simpson's paradox is widely used for misrepresenting data, this work was important to be able to identify potential misuse of data to undermine the validity of public data.",
+        title: "NASA L'SPACE Program",
+        startDate: 'Sep 2020',
+        endDate: 'Jan 2021',
+        description: "Participated in NASA’s L'SPACE program, collaborating with experts and peers to propose a deionizing airlock system designed to reduce moon dust contamination in astronaut living areas."
     },
-  ];
+    {
+        title: "OU Data Analytics Lab",
+        startDate: 'Jan 2021',
+        endDate: 'May 2021',
+        description: "Assisted a PhD researcher in studying Simpson's paradox and its implications for data interpretation, aiming to identify misuse that could lead to misleading conclusions in public datasets."
+    },
+];
+
   
 
 export const skillItems:SkillItem[] = [

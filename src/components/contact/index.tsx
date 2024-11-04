@@ -15,7 +15,7 @@ const Contact = () => {
       <Box>
         <Box className={styles.title}>Let's get In Touch!</Box>
 
-        <Box>Email: lexieb@ou.edu</Box>
+        <Box>Email: lexie.b@nyu.edu</Box>
 
         <Box className={styles.socials}>
           <a href="https://www.linkedin.com/in/lexie-barthelemess-10a86b18a" target='_blank'>
