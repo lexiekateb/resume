@@ -1,4 +1,3 @@
-
 import { Box, Rating } from '@mui/material';
 import React from 'react';
 import styles from './index.module.css';
@@ -27,43 +26,25 @@ const AboutMe: React.FC<AboutMeProps> = ({skillItems}) => {
       <Box className={styles.container} >
         <Box className={styles.card}>
         
-          <Box className={styles.content}>New York University, PhD</Box>
+          <Box className={styles.content}>Education</Box>
           <Box className={styles.text}>
-            <Box>Computer Science</Box>
-            <Box>Cybersecurity for Democracy Lab</Box>
+            <Box><b>New York University, PhD</b></Box>
+            <Box>Computer Science, Cybersecurity for Democracy Lab</Box>
             <Box><i>2024-Present</i></Box>
           </Box>
-
-          <Box className={styles.content}>University of Oklahoma, B.S</Box>
           <Box className={styles.text}>
+            <Box><b>University of Oklahoma, B.S.</b></Box>
             <Box>Computer Science, Minor in Mathematics</Box>
             <Box><i>2020-2024</i></Box>
           </Box>
-
-            <Box className={styles.content}>Honors/Awards</Box>
-            <Box className={styles.text}>
-              <ul>
-                <li>National Merit Scholar</li>
-                <li>Diversity and Inclusion Scholar</li>
-                <li>Dorothy Grade Barkow Scholar</li>
-                <li>Charles and Jean Smith Scholar</li>
-              </ul>
-            </Box>
         </Box>
-
-
         <Box className={styles.card}>
+
           <Box className={styles.content}>Research Interests</Box>
 
           <Box className={styles.text}>
             <Box>
-              My overarching research interests surround privacy, safety, and accountability in online spaces, and more currently, social media.
-            </Box>
-          </Box>
-
-          <Box className={styles.text}>
-            <Box>
-            I am particularly interested in the intersection of technology and policy, and how we can use technology to create a safer and more transparent online environment.
+              I am particularly interested in the intersection of technology and policy, and how we can use technology to create a safer and more transparent online environment.
             </Box>
           </Box>
 

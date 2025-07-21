@@ -70,9 +70,9 @@ const Intro = () => {
 
       </Box>
         <div className={styles.buttons}>
-            <StyledButton onClick={() => showpDF('research.pdf')}>view research statement</StyledButton>
-            <StyledButton onClick={() => showpDF('personal.pdf')}>view printable resume</StyledButton>
+            <StyledButton onClick={() => showpDF('personal.pdf')}>view resume</StyledButton>
             <StyledButton onClick={() => gitLink()}>this website's repo</StyledButton>
+            {/* <StyledButton onClick={() => window.location.href = '/blog'}>visit my blog</StyledButton> */}
         </div>
       <CircleButt className={styles.downButton} onClick={() => onButtonClick()}><ArrowDropDown/></CircleButt>
     </Box>

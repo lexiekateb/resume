@@ -19,15 +19,19 @@ export type SkillItem = {
     rating: number
 }
 
-export const resumeItems: ResumeItem[] = [
+export type Paper = {
+    title: string,
+    url: string
+}
+
+export const papers: Paper[] = [
     {
-        title: "PhD Student",
-        company: "Tandon School of Engineering, New York University",
-        location: "Brooklyn, NY",
-        startDate: "Aug 2024",
-        endDate: "Current",
-        description: "Pursuing a PhD in Computer Science with the Cybersecurity for Democracy lab, focusing on ad transparency and child safety on social media."
+        title: "More and Scammier Ads: The Perils of YouTube's Ad Privacy Settings",
+        url: "https://petsymposium.org/popets/2025/popets-2025-0169.pdf"
     },
+]
+
+export const resumeItems: ResumeItem[] = [
     {
         title: "Software Engineering Intern",
         company: 'Heartland Payment Systems',
@@ -69,22 +73,10 @@ export const researchItems: ResearchItem[] = [
         description: "Collaborated as an undergraduate researcher with a PhD student to develop an interactive front-end for a program that visualizes variable graphs produced by a high-accuracy (98%) Graph Neural Network-based classifier for sparse matrix detection."
     },
     {
-        title: "Reinforcement Learning",
-        startDate: 'Aug 2022',
-        endDate: 'Aug 2023',
-        description: "Worked with a team to explore reinforcement learning using PyTorch, q-tables, and the Bellman equation. Trained a model to play tic-tac-toe against itself, resulting in an efficient player that consistently performed at a high level."
-    },
-    {
         title: "Autonomous Driving",
         startDate: 'Aug 2021',
         endDate: 'May 2022',
         description: "Partnered with the Mechanical Engineering department to enhance object detection for autonomous vehicles using OpenCV and Hough line detection, integrating the output with Lidar technology for collision avoidance."
-    },
-    {
-        title: "NASA L'SPACE Program",
-        startDate: 'Sep 2020',
-        endDate: 'Jan 2021',
-        description: "Participated in NASA’s L'SPACE program, collaborating with experts and peers to propose a deionizing airlock system designed to reduce moon dust contamination in astronaut living areas."
     },
     {
         title: "OU Data Analytics Lab",
